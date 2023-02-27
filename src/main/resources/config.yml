@@ -1,0 +1,3 @@
+app:
+  geocodingServiceUrl: https://geocode.search.hereapi.com/v1/geocode
+  geocodingApiKey: JqbNIC56SUTR7xbz0Sp4BigeRAkLMUyCCN7DVsQ8MPI
