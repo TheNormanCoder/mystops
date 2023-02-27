@@ -34,11 +34,7 @@ Esempio di utilizzo (con indirizzo `via Larga 26 Milano`):
 
 ### Dettagli di funzionamento
 
-Per ottenere le coordinate geografiche legate ad un indirizzo si usa il geocoding.  Nel progetto si propone di utilizzare il 
-
-servizio esterno [HERE Geocoding](https://developer.here.com/documentation/geocoding-search-api/dev_guide/topics/endpoint-geocode-brief.html). 
-
-Per semplicità si fornisce una API-KEY già funzionante.
+servizio esterno [HERE Geocoding](https://developer.here.com/documentation/geocoding-search-api/dev_guide/topics/endpoint-geocode-brief.html).
 
 Le informazioni sulle linee ATM sono disponibili in modalità open-data. Sul sito del [comune di Milano](https://dati.comune.milano.it/dataset) 
 
@@ -50,7 +46,6 @@ L'implementazione proposta prevede di calcolare la distanza tra indirizzo e ferm
 
 usando la [harvesine formula](https://community.esri.com/t5/coordinate-reference-systems-blog/distance-on-a-sphere-the-haversine-formula/ba-p/902128). 
 
-Il calcolo della distanza viene ripetuto per tutte le fermate, ad ogni invocazione del servizio.
 
 
 ## Aggiunto dockerfile
