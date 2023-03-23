@@ -5,7 +5,7 @@ Un servizio web che ritorna le linee ATM vicino ad un determinato indirizzo.
 
 ## Informazioni
 
-L'applicazione è sviluppata in Java, con il supporto del build tool [Maven](https://maven.apache.org/). Anche se molto amati in ambito enterprise, non sono utilizzati framework particolari. Le funzionalità web sono esposte da [questa libreria](https://sparkjava.com/). Il punto di ingresso dell'applicazione è  `stops.calculator.App`. 
+L'applicazione è sviluppata in Java, con il supporto del build tool [Maven](https://maven.apache.org/). Non sono utilizzati framework particolari. Le funzionalità web sono esposte da [questa libreria](https://sparkjava.com/). Il punto di ingresso dell'applicazione è  `stops.calculator.App`. 
 
 Alla partenza, l'applicazione espone l'endpoint `/atm/stops` (sulla porta: `4567`). Dato in input un indirizzo, l'endpoint restituisce le fermate ATM nel raggio di 200 metri (max 10 risultati). L'indirizzo in input viene recuperato dalla  query string della richiesta. L'output è in formato JSON (vedi esempio sotto).
 
